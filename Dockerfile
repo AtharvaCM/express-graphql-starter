@@ -23,7 +23,7 @@ RUN ls -al
 RUN pnpm build:prod
 
 # List files under build directory for reference
-RUN ls -al build
+RUN ls -al dist
 
 ### Final Stage ###
 
@@ -36,7 +36,7 @@ EXPOSE 8080
 WORKDIR /usr/src/app
 
 # Copy the necessary files from the builder stage to this stage
-COPY --chown=node:node --from=builder /usr/src/app/build .
+COPY --chown=node:node --from=builder /usr/src/app/dist .
 
 RUN npm install -g pnpm
 
