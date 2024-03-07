@@ -7437,8 +7437,8 @@ packages:
     hasBin: true
     dev: true
 
-  /jose@4.15.4:
-    resolution: {integrity: sha512-W+oqK4H+r5sITxfxpSU+MMdr/YSWGvgZMQDIsNoBDGGy4i7GBPTtvFKibQzW06n3U3TqHjhvBJsirShsEJ6eeQ==}
+  /jose@4.15.5:
+    resolution: {integrity: sha512-jc7BFxgKPKi94uOvEmzlSWFFe2+vASyXaKUpdQKatWAESU2MWjDfFf0fdfc83CDKcA5QecabZeNLyfhe3yKNkg==}
     dev: false
 
   /jose@5.2.0:
@@ -10197,7 +10197,7 @@ packages:
       cross-fetch: 3.1.8
       debug: 4.3.4(supports-color@5.5.0)
       inflation: 2.1.0
-      jose: 4.15.4
+      jose: 4.15.5
       libphonenumber-js: 1.10.53
       nodemailer: 6.9.8
       pkce-challenge: 3.1.0
